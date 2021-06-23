@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="72" viewBox="0 0 152 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.059" y1="0.5" x2="0.316" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffa"/>
+      <stop offset="1" stop-color="#ffa800"/>
+    </linearGradient>
+    <filter id="Rectangle_11" x="0" y="0" width="152" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Boton_Naranja" data-name="Boton Naranja" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_11)">
+      <rect id="Rectangle_11-2" data-name="Rectangle 11" width="134" height="54" rx="20" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="More_" data-name="More&gt;&gt;" transform="translate(67 38)" fill="#fff" font-size="25" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-43.237" y="0">More&gt;&gt;</tspan></text>
+  </g>
+</svg>
